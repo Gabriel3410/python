@@ -1,5 +1,5 @@
 import forca
-import adivicao
+import adivinhacao
 
 print("***********************************")
 print(" ***Escolha o seu jogo!***")
@@ -13,6 +13,6 @@ if(jogo == 1):
     forca.jogar()
 elif(jogo == 2):
     print("Jogo da adivinhação")
-    adivicao.jogar()
+    adivinhacao.jogar()
 else:
     print("Escolha somente os números 1 ou 2")
